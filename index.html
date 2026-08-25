@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BS FOUNDRY | Cupboards, Kitchens, Furniture & Renovations</title>
+
+<meta name="description" content="BS FOUNDRY - Built-in and movable cupboards, kitchens, wardrobes, furniture, building and renovations in Soweto.">
+
+<style>
+
+* {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #07111c;
+
+    color: white;
+
+    line-height: 1.6;
+
+}
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+.container {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+}
+
+/* HEADER */
+
+header {
+
+    background: #050b12;
+
+    border-bottom: 2px solid #168cff;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+}
+
+.navbar {
+
+    min-height: 75px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+}
+
+.logo {
+
+    font-size: 30px;
+
+    font-weight: 900;
+
+    letter-spacing: 3px;
+
+}
+
+.logo span {
+
+    color: #168cff;
+
+}
+
+.nav-links {
+
+    display: flex;
+
+    gap: 25px;
+
+    list-style: none;
+
+}
+
+.nav-links a {
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+}
+
+.nav-links a:hover {
+
+    color: #168cff;
+
+}
+
+/* HERO */
+
+.hero {
+
+    min-height: 650px;
+
+    display: flex;
+
+    align-items: center;
+
+    background:
+
+        linear-gradient(90deg, rgba(3,9,15,0.98), rgba(3,9,15,0.75), rgba(3,9,15,0.45)),
+
+        linear-gradient(135deg, #07111c, #101d2b);
+
+}
+
+.hero-content {
+
+    max-width: 800px;
+
+    padding: 80px 0;
+
+}
+
+.small-title {
+
+    color: #20a8ff;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 15px;
+
+}
+
+.hero h1 {
+
+    font-size: clamp(45px, 7vw, 85px);
+
+    line-height: 1;
+
+    margin-bottom: 20px;
+
+}
+
+.hero h1 span {
+
+    color: #168cff;
+
+}
+
+.underline {
+
+    width: 220px;
+
+    height: 5px;
+
+    background: linear-gradient(to right, #20baff 0 40%, white 40%);
+
+    margin-bottom: 25px;
+
+}
+
+.hero h2 {
+
+    font-size: clamp(20px, 3vw, 32px);
+
+    margin-bottom: 20px;
+
+}
+
+.hero h2 .blue {
+
+    color: #168cff;
+
+}
+
+.hero p {
+
+    color: #cbd5df;
+
+    font-size: 18px;
+
+    max-width: 700px;
+
+}
+
+.buttons {
+
+    margin-top: 30px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+}
+
+.btn {
+
+    padding: 14px 24px;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+
+    display: inline-block;
+
+    border: 1px solid #168cff;
+
+}
+
+.btn-primary {
+
+    background: #168cff;
+
+    color: white;
+
+}
+
+.btn-secondary {
+
+    background: transparent;
+
+}
+
+/* SECTIONS */
+
+section {
+
+    padding: 80px 0;
+
+}
+
+.section-title {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+.section-title h2 {
+
+    font-size: 40px;
+
+}
+
+.section-title span {
+
+    color: #168cff;
+
+}
+
+.section-title p {
+
+    color: #aeb9c4;
+
+    margin-top: 10px;
+
+}
+
+/* SERVICES */
+
+.services {
+
+    background: #0b1723;
+
+}
+
+.service-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 22px;
+
+}
+
+.service-card {
+
+    background: #111f2d;
+
+    border: 1px solid #263a4d;
+
+    border-radius: 10px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    transition: 0.3s;
+
+}
+
+.service-card:hover {
+
+    transform: translateY(-6px);
+
+    border-color: #168cff;
+
+}
+
+.icon {
+
+    font-size: 45px;
+
+    margin-bottom: 15px;
+
+}
+
+.service-card h3 {
+
+    color: #168cff;
+
+    margin-bottom: 10px;
+
+}
+
+.service-card p {
+
+    color: #b9c4ce;
+
+}
+
+/* ABOUT */
+
+.about {
+
+    background: #07111c;
+
+}
+
+.about-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+
+    align-items: center;
+
+}
+
+.about-box {
+
+    background: #101d2a;
+
+    padding: 40px;
+
+    border-left: 4px solid #168cff;
+
+    border-radius: 8px;
+
+}
+
+.about-box h3 {
+
+    font-size: 30px;
+
+    margin-bottom: 15px;
+
+}
+
+.about-box p {
+
+    color: #c2ccd5;
+
+    margin-bottom: 15px;
+
+}
+
+/* GALLERY */
+
+.gallery {
+
+    background: #0b1723;
+
+}
+
+.gallery-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+}
+
+.gallery-item {
+
+    min-height: 240px;
+
+    background: #172534;
+
+    border: 1px solid #314557;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #8f9dab;
+
+    text-align: center;
+
+}
+
+.gallery-item img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+/* CTA */
+
+.cta {
+
+    background: linear-gradient(135deg, #07111c, #102b43);
+
+    text-align: center;
+
+}
+
+.cta h2 {
+
+    font-size: 42px;
+
+    margin-bottom: 15px;
+
+}
+
+.cta p {
+
+    color: #c6d1da;
+
+    margin-bottom: 25px;
+
+}
+
+/* CONTACT */
+
+.contact {
+
+    background: #050c13;
+
+}
+
+.contact-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+
+}
+
+.contact-card {
+
+    background: #101d29;
+
+    border: 1px solid #263b4d;
+
+    padding: 25px;
+
+    border-radius: 8px;
+
+}
+
+.contact-card strong {
+
+    display: block;
+
+    color: #168cff;
+
+    margin-bottom: 5px;
+
+}
+
+/* FOOTER */
+
+footer {
+
+    background: #03070b;
+
+    border-top: 1px solid #203447;
+
+    text-align: center;
+
+    padding: 30px 15px;
+
+}
+
+footer p {
+
+    color: #8997a4;
+
+}
+
+.footer-brand {
+
+    font-size: 25px;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+.footer-brand span {
+
+    color: #168cff;
+
+}
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    .navbar {
+
+        padding: 15px 0;
+
+        flex-direction: column;
+
+    }
+
+    .nav-links {
+
+        gap: 12px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+    }
+
+    .hero {
+
+        min-height: 600px;
+
+    }
+
+    .hero-content {
+
+        padding: 60px 0;
+
+    }
+
+    .service-grid,
+
+    .gallery-grid,
+
+    .about-grid,
+
+    .contact-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .section-title h2 {
+
+        font-size: 32px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="container navbar">
+
+        <div class="logo">
+
+            <span>BS</span> FOUNDRY
+
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#services">Services</a></li>
+
+            <li><a href="#gallery">Gallery</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </div>
+
+</header>
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="container hero-content">
+
+        <div class="small-title">
+
+            BUILT ON QUALITY • DESIGNED FOR YOU
+
+        </div>
+
+        <h1>
+
+            <span>BS</span> FOUNDRY
+
+        </h1>
+
+        <div class="underline"></div>
+
+        <h2>
+
+            <span class="blue">BUILT-IN</span> AND
+
+            <span class="blue">MOVABLE CUPBOARDS</span>
+
+            <br>
+
+            <span class="blue">BUILDING</span> AND
+
+            <span class="blue">RENOVATIONS</span>
+
+        </h2>
+
+        <p>
+
+            Professional cupboards, kitchens, wardrobes, furniture,
+
+            building and renovation solutions for homes and businesses.
+
+        </p>
+
+        <div class="buttons">
+
+            <a class="btn btn-primary" href="tel:0736084449">
+
+                Call Us
+
+            </a>
+
+            <a class="btn btn-secondary"
+
+               href="https://wa.me/27736084449">
+
+                WhatsApp Us
+
+            </a>
+
+            <a class="btn btn-secondary" href="#contact">
+
+                Get a Quote
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Our <span>Services</span></h2>
+
+            <p>Quality workmanship and professional solutions.</p>
+
+        </div>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+
+                <div class="icon">🚪</div>
+
+                <h3>Built-in & Movable Cupboards</h3>
+
+                <p>
+
+                    Custom cupboards designed and built to suit your
+
+                    space, style and needs.
+
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="icon">🍽️</div>
+
+                <h3>Kitchens & Units</h3>
+
+                <p>
+
+                    Modern kitchen units and practical storage
+
+                    solutions.
+
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="icon">👔</div>
+
+                <h3>Built-in Wardrobes</h3>
+
+                <p>
+
+                    Stylish and practical wardrobes designed around
+
+                    your available space.
+
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="icon">📺</div>
+
+                <h3>TV Stands & Furniture</h3>
+
+                <p>
+
+                    Modern TV stands, pedestals, chest of drawers
+
+                    and other furniture.
+
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="icon">🏠</div>
+
+                <h3>Building & Renovations</h3>
+
+                <p>
+
+                    Building, renovation, alteration and improvement
+
+                    services.
+
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="icon">📐</div>
+
+                <h3>Custom Designs & Finishes</h3>
+
+                <p>
+
+                    Custom solutions created to match your preferred
+
+                    design and finish.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>About <span>BS FOUNDRY</span></h2>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-box">
+
+                <h3>Built on Quality</h3>
+
+                <p>
+
+                    BS FOUNDRY provides custom cupboard, furniture,
+
+                    building and renovation solutions.
+
+                </p>
+
+                <p>
+
+                    We focus on quality workmanship, reliable service,
+
+                    custom solutions and lasting impressions.
+
+                </p>
+
+                <p>
+
+                    Whether you need a new kitchen, wardrobe, TV stand,
+
+                    movable cupboard or renovation work, we are ready
+
+                    to help.
+
+                </p>
+
+            </div>
+
+            <div class="about-box">
+
+                <h3>We Meet Your Needs</h3>
+
+                <p>
+
+                    Every project is different. Our goal is to understand
+
+                    what you need and provide a practical and professional
+
+                    solution.
+
+                </p>
+
+                <p>
+
+                    Serving homes and businesses in Soweto and surrounding
+
+                    areas.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="gallery" id="gallery">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Our <span>Work</span></h2>
+
+            <p>Explore some of our furniture and projects.</p>
+
+        </div>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+
+                <div>
+
+                    <div style="font-size:45px;">📺</div>
+
+                    <strong>TV Stands</strong>
+
+                    <p>Your photo will be added here.</p>
+
+                </div>
+
+            </div>
+
+            <div class="gallery-item">
+
+                <div>
+
+                    <div style="font-size:45px;">🗄️</div>
+
+                    <strong>Chest of Drawers</strong>
+
+                    <p>Your photo will be added here.</p>
+
+                </div>
+
+            </div>
+
+            <div class="gallery-item">
+
+                <div>
+
+                    <div style="font-size:45px;">🪑</div>
+
+                    <strong>Pedestals & Furniture</strong>
+
+                    <p>Your photo will be added here.</p>
+
+                </div>
+
+            </div>
+
+            <div class="gallery-item">
+
+                <div>
+
+                    <div style="font-size:45px;">🚪</div>
+
+                    <strong>Built-in Wardrobes</strong>
+
+                    <p>Your photo will be added here.</p>
+
+                </div>
+
+            </div>
+
+            <div class="gallery-item">
+
+                <div>
+
+                    <div style="font-size:45px;">🍽️</div>
+
+                    <strong>Kitchens</strong>
+
+                    <p>Your photo will be added here.</p>
+
+                </div>
+
+            </div>
+
+            <div class="gallery-item">
+
+                <div>
+
+                    <div style="font-size:45px;">🏠</div>
+
+                    <strong>Building & Renovations</strong>
+
+                    <p>Your photo will be added here.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>WE MEET YOUR NEEDS</h2>
+
+        <p>
+
+            Looking for cupboards, furniture, kitchens or renovation work?
+
+            Contact BS FOUNDRY today.
+
+        </p>
+
+        <a class="btn btn-primary" href="tel:0736084449">
+
+            073 608 4449
+
+        </a>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Contact <span>Us</span></h2>
+
+            <p>Let's discuss your next project.</p>
+
+        </div>
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+
+                <strong>Phone</strong>
+
+                <a href="tel:0736084449">
+
+                    073 608 4449
+
+                </a>
+
+            </div>
+
+            <div class="contact-card">
+
+                <strong>WhatsApp</strong>
+
+                <a href="https://wa.me/27736084449">
+
+                    073 608 4449
+
+                </a>
+
+            </div>
+
+            <div class="contact-card">
+
+                <strong>Email</strong>
+
+                <a href="mailto:bsfoundry94@gmail.com">
+
+                    bsfoundry94@gmail.com
+
+                </a>
+
+            </div>
+
+            <div class="contact-card">
+
+                <strong>Facebook</strong>
+
+                <span>BS Foundry</span>
+
+            </div>
+
+            <div class="contact-card">
+
+                <strong>Website</strong>
+
+                <span>bsfoundry.co.za</span>
+
+            </div>
+
+            <div class="contact-card">
+
+                <strong>Address</strong>
+
+                <span>
+
+                    18 MAIN STREET KLIPRIVIERSOOG,<br>
+
+                    SOWETO
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+
+    <div class="footer-brand">
+
+        <span>BS</span> FOUNDRY
+
+    </div>
+
+    <p>
+
+        BUILT-IN AND MOVABLE CUPBOARDS • BUILDING AND RENOVATIONS
+
+    </p>
+
+    <p>
+
+        © 2026 BS FOUNDRY. All Rights Reserved.
+
+    </p>
+
+</footer>
+
+</body>
+
+</html>
